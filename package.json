@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build && npm run removesourcemap",
+    "lint": "vue-cli-service lint",
+    "removesourcemap": "./remove-sourcemap.sh"
   },
   "dependencies": {
     "@sentry/webpack-plugin": "^1.5.2",
