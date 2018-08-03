@@ -12,7 +12,10 @@ export default {
   name: 'app',
   components: {
     HelloWorld
-  }
+  },
+  mounted() {
+    Promise.reject(new Error('Hello From Vue Sentry Demo'))
+  },
 }
 </script>
 
