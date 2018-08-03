@@ -14,7 +14,7 @@ export default {
     HelloWorld
   },
   mounted() {
-    Promise.reject(new Error('Hello From Vue Sentry Demo'))
+    Promise.reject(new Error('Yeah'))
   },
 }
 </script>
